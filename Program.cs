@@ -50,6 +50,9 @@ app.UseHttpsRedirection();
 // If you have auth middleware
 app.UseAuthorization();
 
+app.Urls.Add("http://0.0.0.0:10000");
+
+
 // Map controllers
 app.MapControllers();
 
