@@ -1,0 +1,36 @@
+2026-01-01 22:23:06.236 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-01 22:23:06.276 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-01 22:23:06.276 +05:30 [INF] Hosting environment: Development
+2026-01-01 22:23:06.276 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-01 22:23:18.936 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5046/ - null null
+2026-01-01 22:23:18.998 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-01-01 22:23:19.110 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5046/ - 404 null null 179.7324ms
+2026-01-01 22:23:19.127 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5046/, Response status code: 404
+2026-01-01 22:23:30.289 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5046/ - null null
+2026-01-01 22:23:30.291 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5046/ - 404 null null 2.9861ms
+2026-01-01 22:23:30.291 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5046/, Response status code: 404
+2026-01-01 22:28:00.167 +05:30 [INF] Application is shutting down...
+2026-01-01 22:30:14.113 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-01 22:30:14.158 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-01 22:30:14.158 +05:30 [INF] Hosting environment: Development
+2026-01-01 22:30:14.158 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-01 22:30:34.932 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5046/ - null null
+2026-01-01 22:30:34.975 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-01-01 22:30:34.983 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5046/ - 404 null null 54.3439ms
+2026-01-01 22:30:35.009 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5046/, Response status code: 404
+2026-01-01 22:30:37.119 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5046/ - null null
+2026-01-01 22:30:37.120 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5046/ - 404 null null 2.102ms
+2026-01-01 22:30:37.121 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5046/, Response status code: 404
+2026-01-01 22:33:11.259 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-01 22:33:11.295 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-01 22:33:11.296 +05:30 [INF] Hosting environment: Development
+2026-01-01 22:33:11.296 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-01 22:36:31.244 +05:30 [INF] Application is shutting down...
+2026-01-01 22:52:20.932 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-01 22:52:20.978 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-01 22:52:20.978 +05:30 [INF] Hosting environment: Development
+2026-01-01 22:52:20.978 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-01 22:52:32.479 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5046/ - null null
+2026-01-01 22:52:32.530 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-01-01 22:52:32.542 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5046/ - 404 null null 66.306ms
+2026-01-01 22:52:32.575 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5046/, Response status code: 404

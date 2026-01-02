@@ -1,0 +1,223 @@
+2025-11-07 15:31:45.435 +05:30 [INF] Now listening on: http://localhost:5046
+2025-11-07 15:31:45.525 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-07 15:31:45.530 +05:30 [INF] Hosting environment: Development
+2025-11-07 15:31:45.530 +05:30 [INF] Content root path: /home/irfanyousuf/coding/GIT_004_005/P10_WebApi
+2025-11-07 15:32:55.089 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/post/create - multipart/form-data; boundary=--------------------------040559733417680210794892 479379
+2025-11-07 15:32:55.273 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-07 15:32:55.291 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 15:32:55.508 +05:30 [INF] Route matched with {action = "Create", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(P10_WebApi.Models.Post, Microsoft.AspNetCore.Http.IFormFile) on controller P10_WebApi.Controllers.PostController (P10_WebApi).
+2025-11-07 15:33:13.613 +05:30 [INF] Executed action P10_WebApi.Controllers.PostController.Create (P10_WebApi) in 18095.2118ms
+2025-11-07 15:33:13.646 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 15:33:13.657 +05:30 [ERR] Unhandled exception for request POST /api/post/create
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Driver.PushUpdateDefinition`2.Render(RenderArgs`1 args)
+   at MongoDB.Driver.MongoCollectionImpl`1.ConvertWriteModelToWriteRequest(WriteModel`1 model, Int32 index, RenderArgs`1 renderArgs)
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass85_0.<CreateBulkWriteOperation>b__0(WriteModel`1 model, Int32 index)
+   at System.Linq.Enumerable.SelectIterator[TSource,TResult](IEnumerable`1 source, Func`3 selector)+MoveNext()
+   at System.Linq.Enumerable.<ToArray>g__EnumerableToArray|314_0[TSource](IEnumerable`1 source)
+   at MongoDB.Driver.MongoCollectionImpl`1.CreateBulkWriteOperation(IClientSessionHandle session, IReadOnlyList`1 requests, BulkWriteOptions options)
+   at MongoDB.Driver.MongoCollectionImpl`1.BulkWriteAsync(IClientSessionHandle session, IEnumerable`1 requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.BulkWriteAsync(IEnumerable`1 requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionBase`1.UpdateOneAsync(FilterDefinition`1 filter, UpdateDefinition`1 update, UpdateOptions options, Func`3 bulkWriteAsync)
+   at P10_WebApi.Controllers.PostController.Create(Post req, IFormFile image) in /home/irfanyousuf/coding/GIT_004_005/P10_WebApi/Controllers/PostController.cs:line 51
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in /home/irfanyousuf/coding/GIT_004_005/P10_WebApi/Middlewares/ErrorHandler.cs:line 23
+2025-11-07 15:33:13.929 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/post/create - 500 null application/json; charset=utf-8 18845.2593ms
+2025-11-07 15:37:28.540 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/post/create - multipart/form-data; boundary=--------------------------809515152936589645556360 479379
+2025-11-07 15:37:28.545 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 15:37:28.545 +05:30 [INF] Route matched with {action = "Create", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(P10_WebApi.Models.Post, Microsoft.AspNetCore.Http.IFormFile) on controller P10_WebApi.Controllers.PostController (P10_WebApi).
+2025-11-07 15:37:47.332 +05:30 [INF] Executed action P10_WebApi.Controllers.PostController.Create (P10_WebApi) in 18786.7766ms
+2025-11-07 15:37:47.334 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 15:37:47.335 +05:30 [ERR] Unhandled exception for request POST /api/post/create
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Driver.PushUpdateDefinition`2.Render(RenderArgs`1 args)
+   at MongoDB.Driver.MongoCollectionImpl`1.ConvertWriteModelToWriteRequest(WriteModel`1 model, Int32 index, RenderArgs`1 renderArgs)
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass85_0.<CreateBulkWriteOperation>b__0(WriteModel`1 model, Int32 index)
+   at System.Linq.Enumerable.SelectIterator[TSource,TResult](IEnumerable`1 source, Func`3 selector)+MoveNext()
+   at System.Linq.Enumerable.<ToArray>g__EnumerableToArray|314_0[TSource](IEnumerable`1 source)
+   at MongoDB.Driver.MongoCollectionImpl`1.CreateBulkWriteOperation(IClientSessionHandle session, IReadOnlyList`1 requests, BulkWriteOptions options)
+   at MongoDB.Driver.MongoCollectionImpl`1.BulkWriteAsync(IClientSessionHandle session, IEnumerable`1 requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.BulkWriteAsync(IEnumerable`1 requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionBase`1.UpdateOneAsync(FilterDefinition`1 filter, UpdateDefinition`1 update, UpdateOptions options, Func`3 bulkWriteAsync)
+   at P10_WebApi.Controllers.PostController.Create(Post req, IFormFile image) in /home/irfanyousuf/coding/GIT_004_005/P10_WebApi/Controllers/PostController.cs:line 51
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in /home/irfanyousuf/coding/GIT_004_005/P10_WebApi/Middlewares/ErrorHandler.cs:line 23
+2025-11-07 15:37:47.357 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/post/create - 500 null application/json; charset=utf-8 18817.2175ms
+2025-11-07 15:40:14.544 +05:30 [INF] Now listening on: http://localhost:5046
+2025-11-07 15:40:14.643 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-07 15:40:14.643 +05:30 [INF] Hosting environment: Development
+2025-11-07 15:40:14.644 +05:30 [INF] Content root path: /home/irfanyousuf/coding/GIT_004_005/P10_WebApi
+2025-11-07 15:40:50.550 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/post/create - multipart/form-data; boundary=--------------------------085649295903721760645720 479379
+2025-11-07 15:40:50.847 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-07 15:40:50.858 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 15:40:51.080 +05:30 [INF] Route matched with {action = "Create", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(P10_WebApi.Models.Post, Microsoft.AspNetCore.Http.IFormFile) on controller P10_WebApi.Controllers.PostController (P10_WebApi).
+2025-11-07 15:41:07.432 +05:30 [INF] Executed action P10_WebApi.Controllers.PostController.Create (P10_WebApi) in 16340.0634ms
+2025-11-07 15:41:07.457 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 15:41:07.462 +05:30 [ERR] Unhandled exception for request POST /api/post/create
+MongoDB.Driver.MongoWriteException: A write operation resulted in an error. WriteError: { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: P10WebApi.Posts index: _id_ dup key: { _id: null }" }.
+ ---> MongoDB.Driver.MongoBulkWriteException`1[P10_WebApi.Models.Post]: A bulk write operation resulted in one or more errors. WriteErrors: [ { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: P10WebApi.Posts index: _id_ dup key: { _id: null }" } ].
+   at MongoDB.Driver.MongoCollectionImpl`1.BulkWriteAsync(IClientSessionHandle session, IEnumerable`1 requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.BulkWriteAsync(IEnumerable`1 requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionBase`1.InsertOneAsync(TDocument document, InsertOneOptions options, Func`3 bulkWriteAsync)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.MongoCollectionBase`1.InsertOneAsync(TDocument document, InsertOneOptions options, Func`3 bulkWriteAsync)
+   at P10_WebApi.Controllers.PostController.Create(Post req, IFormFile image) in /home/irfanyousuf/coding/GIT_004_005/P10_WebApi/Controllers/PostController.cs:line 45
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in /home/irfanyousuf/coding/GIT_004_005/P10_WebApi/Middlewares/ErrorHandler.cs:line 23
+2025-11-07 15:41:07.578 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/post/create - 500 null application/json; charset=utf-8 17036.739ms
+2025-11-07 15:49:35.915 +05:30 [INF] Now listening on: http://localhost:5046
+2025-11-07 15:49:35.984 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-07 15:49:35.985 +05:30 [INF] Hosting environment: Development
+2025-11-07 15:49:35.989 +05:30 [INF] Content root path: /home/irfanyousuf/coding/GIT_004_005/P10_WebApi
+2025-11-07 15:50:08.249 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/post/create - multipart/form-data; boundary=--------------------------205113736128718771348810 479379
+2025-11-07 15:50:08.457 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-07 15:50:08.469 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 15:50:08.601 +05:30 [INF] Route matched with {action = "Create", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(P10_WebApi.Models.Post, Microsoft.AspNetCore.Http.IFormFile) on controller P10_WebApi.Controllers.PostController (P10_WebApi).
+2025-11-07 15:50:16.963 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], P10_WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-07 15:50:17.142 +05:30 [INF] Executed action P10_WebApi.Controllers.PostController.Create (P10_WebApi) in 8499.4027ms
+2025-11-07 15:50:17.190 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 15:50:17.210 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/post/create - 200 null application/json; charset=utf-8 8967.6497ms
+2025-11-07 15:51:52.802 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/post/create - multipart/form-data; boundary=--------------------------674493113587370487641414 479379
+2025-11-07 15:51:52.807 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 15:51:52.808 +05:30 [INF] Route matched with {action = "Create", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(P10_WebApi.Models.Post, Microsoft.AspNetCore.Http.IFormFile) on controller P10_WebApi.Controllers.PostController (P10_WebApi).
+2025-11-07 15:51:58.447 +05:30 [INF] Executed action P10_WebApi.Controllers.PostController.Create (P10_WebApi) in 5638.6755ms
+2025-11-07 15:51:58.450 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 15:51:58.457 +05:30 [ERR] Unhandled exception for request POST /api/post/create
+MongoDB.Driver.MongoWriteException: A write operation resulted in an error. WriteError: { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: P10WebApi.Posts index: _id_ dup key: { _id: null }" }.
+ ---> MongoDB.Driver.MongoBulkWriteException`1[P10_WebApi.Models.Post]: A bulk write operation resulted in one or more errors. WriteErrors: [ { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: P10WebApi.Posts index: _id_ dup key: { _id: null }" } ].
+   at MongoDB.Driver.MongoCollectionImpl`1.BulkWriteAsync(IClientSessionHandle session, IEnumerable`1 requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.BulkWriteAsync(IEnumerable`1 requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionBase`1.InsertOneAsync(TDocument document, InsertOneOptions options, Func`3 bulkWriteAsync)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.MongoCollectionBase`1.InsertOneAsync(TDocument document, InsertOneOptions options, Func`3 bulkWriteAsync)
+   at P10_WebApi.Controllers.PostController.Create(Post req, IFormFile image) in /home/irfanyousuf/coding/GIT_004_005/P10_WebApi/Controllers/PostController.cs:line 45
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in /home/irfanyousuf/coding/GIT_004_005/P10_WebApi/Middlewares/ErrorHandler.cs:line 23
+2025-11-07 15:51:58.591 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/post/create - 500 null application/json; charset=utf-8 5788.678ms
+2025-11-07 15:56:31.783 +05:30 [INF] Now listening on: http://localhost:5046
+2025-11-07 15:56:31.855 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-07 15:56:31.856 +05:30 [INF] Hosting environment: Development
+2025-11-07 15:56:31.857 +05:30 [INF] Content root path: /home/irfanyousuf/coding/GIT_004_005/P10_WebApi
+2025-11-07 15:59:16.704 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/post/create - multipart/form-data; boundary=--------------------------359513934992468741664473 479379
+2025-11-07 15:59:16.918 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-07 15:59:16.936 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 15:59:17.093 +05:30 [INF] Route matched with {action = "Create", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(P10_WebApi.Models.Post, Microsoft.AspNetCore.Http.IFormFile) on controller P10_WebApi.Controllers.PostController (P10_WebApi).
+2025-11-07 15:59:27.315 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], P10_WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-07 15:59:27.427 +05:30 [INF] Executed action P10_WebApi.Controllers.PostController.Create (P10_WebApi) in 10318.8544ms
+2025-11-07 15:59:27.450 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 15:59:27.464 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/post/create - 200 null application/json; charset=utf-8 10762.6256ms
+2025-11-07 16:01:14.388 +05:30 [INF] Now listening on: http://localhost:5046
+2025-11-07 16:01:14.523 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-07 16:01:14.523 +05:30 [INF] Hosting environment: Development
+2025-11-07 16:01:14.524 +05:30 [INF] Content root path: /home/irfanyousuf/coding/GIT_004_005/P10_WebApi
+2025-11-07 16:04:37.339 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/post/create - multipart/form-data; boundary=--------------------------989630905042087346387130 479379
+2025-11-07 16:04:37.593 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-07 16:04:37.619 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 16:04:37.765 +05:30 [INF] Route matched with {action = "Create", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(P10_WebApi.Models.Post, Microsoft.AspNetCore.Http.IFormFile) on controller P10_WebApi.Controllers.PostController (P10_WebApi).
+2025-11-07 16:04:51.997 +05:30 [INF] Executed action P10_WebApi.Controllers.PostController.Create (P10_WebApi) in 14214.5773ms
+2025-11-07 16:04:52.021 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 16:04:52.026 +05:30 [ERR] Unhandled exception for request POST /api/post/create
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'MongoDB.Bson.ObjectId'.
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Driver.PushUpdateDefinition`2.Render(RenderArgs`1 args)
+   at MongoDB.Driver.MongoCollectionImpl`1.ConvertWriteModelToWriteRequest(WriteModel`1 model, Int32 index, RenderArgs`1 renderArgs)
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass85_0.<CreateBulkWriteOperation>b__0(WriteModel`1 model, Int32 index)
+   at System.Linq.Enumerable.SelectIterator[TSource,TResult](IEnumerable`1 source, Func`3 selector)+MoveNext()
+   at System.Linq.Enumerable.<ToArray>g__EnumerableToArray|314_0[TSource](IEnumerable`1 source)
+   at MongoDB.Driver.MongoCollectionImpl`1.CreateBulkWriteOperation(IClientSessionHandle session, IReadOnlyList`1 requests, BulkWriteOptions options)
+   at MongoDB.Driver.MongoCollectionImpl`1.BulkWriteAsync(IClientSessionHandle session, IEnumerable`1 requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.BulkWriteAsync(IEnumerable`1 requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionBase`1.UpdateOneAsync(FilterDefinition`1 filter, UpdateDefinition`1 update, UpdateOptions options, Func`3 bulkWriteAsync)
+   at P10_WebApi.Controllers.PostController.Create(Post req, IFormFile image)
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context)
+2025-11-07 16:04:52.150 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/post/create - 500 null application/json; charset=utf-8 14816.5001ms
+2025-11-07 16:08:10.382 +05:30 [INF] Now listening on: http://localhost:5046
+2025-11-07 16:08:10.469 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-07 16:08:10.470 +05:30 [INF] Hosting environment: Development
+2025-11-07 16:08:10.470 +05:30 [INF] Content root path: /home/irfanyousuf/coding/GIT_004_005/P10_WebApi
+2025-11-07 16:10:23.396 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/post/create - multipart/form-data; boundary=--------------------------245635003699215039598689 479379
+2025-11-07 16:10:23.595 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-07 16:10:23.611 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 16:10:23.721 +05:30 [INF] Route matched with {action = "Create", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(P10_WebApi.Models.Post, Microsoft.AspNetCore.Http.IFormFile) on controller P10_WebApi.Controllers.PostController (P10_WebApi).
+2025-11-07 16:10:32.637 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], P10_WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-07 16:10:32.735 +05:30 [INF] Executed action P10_WebApi.Controllers.PostController.Create (P10_WebApi) in 8999.8818ms
+2025-11-07 16:10:32.756 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 16:10:32.776 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/post/create - 200 null application/json; charset=utf-8 9385.0114ms
+2025-11-07 16:12:42.168 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/post/create - multipart/form-data; boundary=--------------------------174221554666499005834870 479378
+2025-11-07 16:12:42.171 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 16:12:42.172 +05:30 [INF] Route matched with {action = "Create", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(P10_WebApi.Models.Post, Microsoft.AspNetCore.Http.IFormFile) on controller P10_WebApi.Controllers.PostController (P10_WebApi).
+2025-11-07 16:12:49.565 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], P10_WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-07 16:12:49.566 +05:30 [INF] Executed action P10_WebApi.Controllers.PostController.Create (P10_WebApi) in 7394.2494ms
+2025-11-07 16:12:49.567 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.PostController.Create (P10_WebApi)'
+2025-11-07 16:12:49.569 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/post/create - 200 null application/json; charset=utf-8 7401.949ms

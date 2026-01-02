@@ -1,0 +1,1097 @@
+2026-01-02 10:43:51.656 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-02 10:43:51.692 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-02 10:43:51.693 +05:30 [INF] Hosting environment: Development
+2026-01-02 10:43:51.693 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-02 10:58:12.414 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-02 10:58:12.448 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-02 10:58:12.448 +05:30 [INF] Hosting environment: Development
+2026-01-02 10:58:12.448 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-02 11:01:08.990 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/ - application/json 96
+2026-01-02 11:01:09.025 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-01-02 11:01:09.032 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/ - 404 0 null 43.7927ms
+2026-01-02 11:01:09.046 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5046/, Response status code: 404
+2026-01-02 11:03:03.724 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/user/register - application/json 96
+2026-01-02 11:03:03.730 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:03:03.769 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Register(P10_WebApi.Models.User) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:03:06.666 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:03:06.674 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 2900.9902ms
+2026-01-02 11:03:06.675 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:03:06.676 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/user/register - 200 null application/json; charset=utf-8 2953.1624ms
+2026-01-02 11:04:32.543 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/user/login?username=bareera&password=secure123 - application/json 96
+2026-01-02 11:04:32.545 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Login (P10_WebApi)'
+2026-01-02 11:04:32.555 +05:30 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(P10_WebApi.Models.User) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:04:33.935 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:04:33.936 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Login (P10_WebApi) in 1380.3062ms
+2026-01-02 11:04:33.936 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Login (P10_WebApi)'
+2026-01-02 11:04:33.936 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/user/login?username=bareera&password=secure123 - 200 null application/json; charset=utf-8 1392.6112ms
+2026-01-02 11:10:10.836 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/user/forgotpassword?phonenumber=9149865535 - application/json 96
+2026-01-02 11:10:10.837 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 11:10:10.843 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] ForgotPassword(System.String) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:10:10.856 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:10:10.857 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi) in 13.4611ms
+2026-01-02 11:10:10.857 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 11:10:10.857 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/user/forgotpassword?phonenumber=9149865535 - 400 null application/json; charset=utf-8 20.5556ms
+2026-01-02 11:11:31.501 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/user/forgotpassword?phoneNumber=9149865535%0A - application/json 128
+2026-01-02 11:11:31.502 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 11:11:31.502 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] ForgotPassword(System.String) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:11:31.505 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:11:31.505 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi) in 3.1725ms
+2026-01-02 11:11:31.506 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 11:11:31.506 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/user/forgotpassword?phoneNumber=9149865535%0A - 400 null application/json; charset=utf-8 4.664ms
+2026-01-02 11:12:41.501 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/user/register
+ - application/json 134
+2026-01-02 11:12:41.501 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/user/register
+ - 404 0 null 0.393ms
+2026-01-02 11:12:41.501 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5046/api/user/register%0A, Response status code: 404
+2026-01-02 11:12:45.392 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/user/register
+ - application/json 134
+2026-01-02 11:12:45.392 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/user/register
+ - 404 0 null 0.2947ms
+2026-01-02 11:12:45.392 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5046/api/user/register%0A, Response status code: 404
+2026-01-02 11:13:23.734 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/user/register
+ - application/json 134
+2026-01-02 11:13:23.735 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/user/register
+ - 404 0 null 0.3674ms
+2026-01-02 11:13:23.735 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5046/api/user/register%0A, Response status code: 404
+2026-01-02 11:15:43.607 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 134
+2026-01-02 11:15:43.608 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:15:43.608 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Register(P10_WebApi.Models.User) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:15:43.719 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:15:43.719 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 111.4358ms
+2026-01-02 11:15:43.719 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:15:43.720 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 200 null application/json; charset=utf-8 112.2674ms
+2026-01-02 11:19:50.478 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 128
+2026-01-02 11:19:50.478 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:19:50.483 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Register(P10_WebApi.Models.User) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:20:24.359 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-02 11:20:24.392 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-02 11:20:24.393 +05:30 [INF] Hosting environment: Development
+2026-01-02 11:20:24.393 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-02 11:20:49.609 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 128
+2026-01-02 11:20:49.653 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-01-02 11:20:49.656 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:20:49.679 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Register(P10_WebApi.Models.User) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:20:49.890 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-01-02 11:20:49.923 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 238.8004ms
+2026-01-02 11:20:49.939 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:20:49.942 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 400 null application/problem+json; charset=utf-8 333.9249ms
+2026-01-02 11:23:51.911 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 128
+2026-01-02 11:23:51.913 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:23:51.922 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:23:54.259 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 2336.3739ms
+2026-01-02 11:23:54.260 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:23:54.262 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+Twilio.Exceptions.ApiException: Authenticate
+   at Twilio.Clients.TwilioRestClient.ProcessResponse(Response response)
+   at Twilio.Clients.TwilioRestClient.RequestAsync(Request request)
+   at Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(CreateMessageOptions options, ITwilioRestClient client)
+   at Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(PhoneNumber to, String pathAccountSid, PhoneNumber from, String messagingServiceSid, String body, List`1 mediaUrl, String contentSid, Uri statusCallback, String applicationSid, Nullable`1 maxPrice, Nullable`1 provideFeedback, Nullable`1 attempt, Nullable`1 validityPeriod, Nullable`1 forceDelivery, ContentRetentionEnum contentRetention, AddressRetentionEnum addressRetention, Nullable`1 smartEncoded, List`1 persistentAction, TrafficTypeEnum trafficType, Nullable`1 shortenUrls, ScheduleTypeEnum scheduleType, Nullable`1 sendAt, Nullable`1 sendAsMms, String contentVariables, RiskCheckEnum riskCheck, ITwilioRestClient client)
+   at P10_WebApi.Services.SmsService.SendSmsAsync(String phoneNumber, String message)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto)
+   at lambda_method13(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context)
+2026-01-02 11:23:54.288 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 2378.0303ms
+2026-01-02 11:23:59.649 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 128
+2026-01-02 11:23:59.652 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:23:59.652 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:23:59.668 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:23:59.669 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 17.0394ms
+2026-01-02 11:23:59.669 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:23:59.670 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 400 null application/json; charset=utf-8 20.5257ms
+2026-01-02 11:24:17.252 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 110
+2026-01-02 11:24:17.252 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:24:17.253 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:24:17.256 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:24:17.256 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 3.4907ms
+2026-01-02 11:24:17.256 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:24:17.257 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 400 null application/json; charset=utf-8 4.6807ms
+2026-01-02 11:24:18.733 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 110
+2026-01-02 11:24:18.734 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:24:18.734 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:24:18.737 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:24:18.737 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 3.0399ms
+2026-01-02 11:24:18.738 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:24:18.738 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 400 null application/json; charset=utf-8 4.2296ms
+2026-01-02 11:24:38.231 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 110
+2026-01-02 11:24:38.231 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:24:38.231 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:24:38.832 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 600.8846ms
+2026-01-02 11:24:38.832 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:24:38.832 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+Twilio.Exceptions.ApiException: Authenticate
+   at Twilio.Clients.TwilioRestClient.ProcessResponse(Response response)
+   at Twilio.Clients.TwilioRestClient.RequestAsync(Request request)
+   at Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(CreateMessageOptions options, ITwilioRestClient client)
+   at Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(PhoneNumber to, String pathAccountSid, PhoneNumber from, String messagingServiceSid, String body, List`1 mediaUrl, String contentSid, Uri statusCallback, String applicationSid, Nullable`1 maxPrice, Nullable`1 provideFeedback, Nullable`1 attempt, Nullable`1 validityPeriod, Nullable`1 forceDelivery, ContentRetentionEnum contentRetention, AddressRetentionEnum addressRetention, Nullable`1 smartEncoded, List`1 persistentAction, TrafficTypeEnum trafficType, Nullable`1 shortenUrls, ScheduleTypeEnum scheduleType, Nullable`1 sendAt, Nullable`1 sendAsMms, String contentVariables, RiskCheckEnum riskCheck, ITwilioRestClient client)
+   at P10_WebApi.Services.SmsService.SendSmsAsync(String phoneNumber, String message)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto)
+   at lambda_method13(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context)
+2026-01-02 11:24:38.834 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 602.6951ms
+2026-01-02 11:25:50.494 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 121
+2026-01-02 11:25:50.494 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:25:50.494 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:25:50.497 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:25:50.497 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 2.8497ms
+2026-01-02 11:25:50.497 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:25:50.498 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 400 null application/json; charset=utf-8 3.8223ms
+2026-01-02 11:26:08.250 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 123
+2026-01-02 11:26:08.250 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:26:08.251 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:26:11.431 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 3180.6789ms
+2026-01-02 11:26:11.432 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:26:11.432 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+Twilio.Exceptions.ApiException: Authenticate
+   at Twilio.Clients.TwilioRestClient.ProcessResponse(Response response)
+   at Twilio.Clients.TwilioRestClient.RequestAsync(Request request)
+   at Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(CreateMessageOptions options, ITwilioRestClient client)
+   at Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(PhoneNumber to, String pathAccountSid, PhoneNumber from, String messagingServiceSid, String body, List`1 mediaUrl, String contentSid, Uri statusCallback, String applicationSid, Nullable`1 maxPrice, Nullable`1 provideFeedback, Nullable`1 attempt, Nullable`1 validityPeriod, Nullable`1 forceDelivery, ContentRetentionEnum contentRetention, AddressRetentionEnum addressRetention, Nullable`1 smartEncoded, List`1 persistentAction, TrafficTypeEnum trafficType, Nullable`1 shortenUrls, ScheduleTypeEnum scheduleType, Nullable`1 sendAt, Nullable`1 sendAsMms, String contentVariables, RiskCheckEnum riskCheck, ITwilioRestClient client)
+   at P10_WebApi.Services.SmsService.SendSmsAsync(String phoneNumber, String message)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto)
+   at lambda_method13(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context)
+2026-01-02 11:26:11.433 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 3182.8433ms
+2026-01-02 11:27:42.561 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 117
+2026-01-02 11:27:42.561 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:27:42.561 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:27:42.562 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:27:42.562 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 0.6411ms
+2026-01-02 11:27:42.562 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:27:42.562 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 400 null application/json; charset=utf-8 1.1668ms
+2026-01-02 11:27:50.215 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 120
+2026-01-02 11:27:50.215 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:27:50.215 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:27:51.420 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 1204.5269ms
+2026-01-02 11:27:51.420 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:27:51.420 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+Twilio.Exceptions.ApiException: Authenticate
+   at Twilio.Clients.TwilioRestClient.ProcessResponse(Response response)
+   at Twilio.Clients.TwilioRestClient.RequestAsync(Request request)
+   at Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(CreateMessageOptions options, ITwilioRestClient client)
+   at Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(PhoneNumber to, String pathAccountSid, PhoneNumber from, String messagingServiceSid, String body, List`1 mediaUrl, String contentSid, Uri statusCallback, String applicationSid, Nullable`1 maxPrice, Nullable`1 provideFeedback, Nullable`1 attempt, Nullable`1 validityPeriod, Nullable`1 forceDelivery, ContentRetentionEnum contentRetention, AddressRetentionEnum addressRetention, Nullable`1 smartEncoded, List`1 persistentAction, TrafficTypeEnum trafficType, Nullable`1 shortenUrls, ScheduleTypeEnum scheduleType, Nullable`1 sendAt, Nullable`1 sendAsMms, String contentVariables, RiskCheckEnum riskCheck, ITwilioRestClient client)
+   at P10_WebApi.Services.SmsService.SendSmsAsync(String phoneNumber, String message)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto)
+   at lambda_method13(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context)
+2026-01-02 11:27:51.422 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 1206.6981ms
+2026-01-02 11:29:19.682 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 120
+2026-01-02 11:29:19.682 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:29:19.687 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:29:19.693 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:29:19.694 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 6.9882ms
+2026-01-02 11:29:19.695 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:29:19.695 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 400 null application/json; charset=utf-8 12.9637ms
+2026-01-02 11:29:44.690 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 124
+2026-01-02 11:29:44.691 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:29:44.691 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:29:44.694 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:29:44.694 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 2.6785ms
+2026-01-02 11:29:44.694 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:29:44.694 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 400 null application/json; charset=utf-8 4.0833ms
+2026-01-02 11:32:20.547 +05:30 [INF] Application is shutting down...
+2026-01-02 11:39:46.535 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-02 11:39:46.572 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-02 11:39:46.573 +05:30 [INF] Hosting environment: Development
+2026-01-02 11:39:46.574 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-02 11:43:52.976 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 118
+2026-01-02 11:43:52.997 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-01-02 11:43:52.999 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:43:53.020 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:43:54.606 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:43:54.620 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 1594.2717ms
+2026-01-02 11:43:54.632 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:43:54.637 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 200 null application/json; charset=utf-8 1661.8208ms
+2026-01-02 11:44:24.276 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 120
+2026-01-02 11:44:24.280 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:44:24.281 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:44:24.298 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 14.6515ms
+2026-01-02 11:44:24.300 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:44:24.303 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element 'Bio' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 483
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 11:44:24.343 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 67.5668ms
+2026-01-02 11:44:33.950 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 118
+2026-01-02 11:44:33.954 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:44:33.956 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:44:33.963 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 5.0961ms
+2026-01-02 11:44:33.964 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:44:33.965 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element 'Bio' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 483
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 11:44:33.984 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 33.4836ms
+2026-01-02 11:44:42.463 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 118
+2026-01-02 11:44:42.466 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:44:42.467 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:44:42.474 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:44:42.476 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 7.2489ms
+2026-01-02 11:44:42.478 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:44:42.479 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 400 null application/json; charset=utf-8 16.2123ms
+2026-01-02 11:45:46.656 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 118
+2026-01-02 11:45:46.659 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:45:46.660 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:45:48.790 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:45:48.792 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 2130.4526ms
+2026-01-02 11:45:48.794 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:45:48.795 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 200 null application/json; charset=utf-8 2138.9929ms
+2026-01-02 11:53:37.445 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 118
+2026-01-02 11:53:37.447 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:53:37.448 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:53:37.454 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:53:37.455 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 4.7564ms
+2026-01-02 11:53:37.456 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:53:37.457 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 400 null application/json; charset=utf-8 11.9319ms
+2026-01-02 11:53:43.552 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 119
+2026-01-02 11:53:43.554 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:53:43.556 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:53:43.561 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:53:43.563 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 4.5646ms
+2026-01-02 11:53:43.565 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:53:43.566 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 400 null application/json; charset=utf-8 14.6506ms
+2026-01-02 11:53:50.188 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 119
+2026-01-02 11:53:50.191 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:53:50.192 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:53:50.197 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:53:50.198 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 4.1468ms
+2026-01-02 11:53:50.200 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:53:50.202 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 400 null application/json; charset=utf-8 13.9829ms
+2026-01-02 11:53:55.582 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 120
+2026-01-02 11:53:55.585 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:53:55.587 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:53:57.211 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:53:57.212 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 1623.2249ms
+2026-01-02 11:53:57.214 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 11:53:57.215 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 200 null application/json; charset=utf-8 1632.9247ms
+2026-01-02 11:56:47.450 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Login?username=phone&password=7780869115 - application/json 120
+2026-01-02 11:56:47.452 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Login (P10_WebApi)'
+2026-01-02 11:56:47.462 +05:30 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(P10_WebApi.Models.LoginDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:56:47.662 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:56:47.664 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Login (P10_WebApi) in 199.9011ms
+2026-01-02 11:56:47.665 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Login (P10_WebApi)'
+2026-01-02 11:56:47.666 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Login?username=phone&password=7780869115 - 200 null application/json; charset=utf-8 216.3539ms
+2026-01-02 11:56:49.262 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Login?username=phone&password=7780869115 - application/json 120
+2026-01-02 11:56:49.264 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Login (P10_WebApi)'
+2026-01-02 11:56:49.265 +05:30 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(P10_WebApi.Models.LoginDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 11:56:49.430 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 11:56:49.432 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Login (P10_WebApi) in 164.8231ms
+2026-01-02 11:56:49.433 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Login (P10_WebApi)'
+2026-01-02 11:56:49.434 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Login?username=phone&password=7780869115 - 200 null application/json; charset=utf-8 171.8761ms
+2026-01-02 13:22:06.268 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-02 13:22:06.302 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-02 13:22:06.302 +05:30 [INF] Hosting environment: Development
+2026-01-02 13:22:06.303 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-02 13:22:11.808 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 117
+2026-01-02 13:22:11.833 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-01-02 13:22:11.835 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 13:22:11.861 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 13:22:14.424 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 13:22:14.434 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 2570.5193ms
+2026-01-02 13:22:14.442 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 13:22:14.445 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 200 null application/json; charset=utf-8 2638.9636ms
+2026-01-02 13:25:48.904 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 117
+2026-01-02 13:25:48.907 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 13:25:48.908 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 13:25:50.975 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 13:25:50.977 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 2068.4041ms
+2026-01-02 13:25:50.978 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 13:25:50.979 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 200 null application/json; charset=utf-8 2074.8051ms
+2026-01-02 13:26:42.490 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 121
+2026-01-02 13:26:42.493 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 13:26:42.494 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 13:26:43.813 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 13:26:43.814 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 1319.5986ms
+2026-01-02 13:26:43.815 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 13:26:43.815 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 200 null application/json; charset=utf-8 1325.6101ms
+2026-01-02 13:27:45.106 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword - application/json 121
+2026-01-02 13:27:45.106 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:27:45.116 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 13:27:45.120 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-01-02 13:27:45.142 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi) in 25.9068ms
+2026-01-02 13:27:45.143 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:27:45.144 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword - 400 null application/problem+json; charset=utf-8 38.614ms
+2026-01-02 13:28:11.754 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - application/json 121
+2026-01-02 13:28:11.754 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:28:11.755 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 13:28:11.765 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 13:28:11.765 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi) in 10.2638ms
+2026-01-02 13:28:11.765 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:28:11.765 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - 400 null application/json; charset=utf-8 11.6142ms
+2026-01-02 13:28:31.979 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - application/json 121
+2026-01-02 13:28:31.980 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:28:31.980 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 13:28:31.982 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 13:28:31.982 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi) in 2.0973ms
+2026-01-02 13:28:31.982 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:28:31.982 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - 400 null application/json; charset=utf-8 2.6822ms
+2026-01-02 13:28:38.053 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - application/json 117
+2026-01-02 13:28:38.054 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:28:38.054 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 13:28:38.056 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 13:28:38.056 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi) in 2.0227ms
+2026-01-02 13:28:38.056 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:28:38.056 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - 400 null application/json; charset=utf-8 2.8561ms
+2026-01-02 13:28:40.282 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - application/json 117
+2026-01-02 13:28:40.282 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:28:40.282 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 13:28:40.284 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 13:28:40.284 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi) in 1.735ms
+2026-01-02 13:28:40.284 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:28:40.284 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - 400 null application/json; charset=utf-8 2.336ms
+2026-01-02 13:28:41.731 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - application/json 117
+2026-01-02 13:28:41.731 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:28:41.732 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 13:28:41.735 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 13:28:41.735 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi) in 3.502ms
+2026-01-02 13:28:41.735 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:28:41.736 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - 400 null application/json; charset=utf-8 4.6025ms
+2026-01-02 13:28:51.766 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 117
+2026-01-02 13:28:51.766 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 13:28:51.767 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 13:28:52.835 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 13:28:52.835 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 1068.6706ms
+2026-01-02 13:28:52.835 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 13:28:52.836 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 200 null application/json; charset=utf-8 1069.3509ms
+2026-01-02 13:29:19.397 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - application/json 117
+2026-01-02 13:29:19.397 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:29:19.397 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 13:29:19.867 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi) in 469.9335ms
+2026-01-02 13:29:19.868 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:29:19.869 +05:30 [ERR] Unhandled exception for request POST /api/User/forgotpassword
+Twilio.Exceptions.ApiException: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: 914986XXXX
+   at Twilio.Clients.TwilioRestClient.ProcessResponse(Response response)
+   at Twilio.Clients.TwilioRestClient.RequestAsync(Request request)
+   at Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(CreateMessageOptions options, ITwilioRestClient client)
+   at Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(PhoneNumber to, String pathAccountSid, PhoneNumber from, String messagingServiceSid, String body, List`1 mediaUrl, String contentSid, Uri statusCallback, String applicationSid, Nullable`1 maxPrice, Nullable`1 provideFeedback, Nullable`1 attempt, Nullable`1 validityPeriod, Nullable`1 forceDelivery, ContentRetentionEnum contentRetention, AddressRetentionEnum addressRetention, Nullable`1 smartEncoded, List`1 persistentAction, TrafficTypeEnum trafficType, Nullable`1 shortenUrls, ScheduleTypeEnum scheduleType, Nullable`1 sendAt, Nullable`1 sendAsMms, String contentVariables, RiskCheckEnum riskCheck, ITwilioRestClient client)
+   at P10_WebApi.Services.SmsService.SendSmsAsync(String phoneNumber, String message) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Services\SmsService.cs:line 75
+   at P10_WebApi.Controllers.UserController.ForgotPassword(String phoneNumber) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 638
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 13:29:19.884 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - 500 null application/json; charset=utf-8 486.9117ms
+2026-01-02 13:30:28.013 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - application/json 117
+2026-01-02 13:30:28.014 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:30:28.014 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 13:30:28.988 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi) in 973.3944ms
+2026-01-02 13:30:28.988 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:30:28.988 +05:30 [ERR] Unhandled exception for request POST /api/User/forgotpassword
+Twilio.Exceptions.ApiException: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: 914986XXXX
+   at Twilio.Clients.TwilioRestClient.ProcessResponse(Response response)
+   at Twilio.Clients.TwilioRestClient.RequestAsync(Request request)
+   at Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(CreateMessageOptions options, ITwilioRestClient client)
+   at Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(PhoneNumber to, String pathAccountSid, PhoneNumber from, String messagingServiceSid, String body, List`1 mediaUrl, String contentSid, Uri statusCallback, String applicationSid, Nullable`1 maxPrice, Nullable`1 provideFeedback, Nullable`1 attempt, Nullable`1 validityPeriod, Nullable`1 forceDelivery, ContentRetentionEnum contentRetention, AddressRetentionEnum addressRetention, Nullable`1 smartEncoded, List`1 persistentAction, TrafficTypeEnum trafficType, Nullable`1 shortenUrls, ScheduleTypeEnum scheduleType, Nullable`1 sendAt, Nullable`1 sendAsMms, String contentVariables, RiskCheckEnum riskCheck, ITwilioRestClient client)
+   at P10_WebApi.Services.SmsService.SendSmsAsync(String phoneNumber, String message) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Services\SmsService.cs:line 75
+   at P10_WebApi.Controllers.UserController.ForgotPassword(String phoneNumber) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 638
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 13:30:28.989 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - 500 null application/json; charset=utf-8 976.0674ms
+2026-01-02 13:30:32.264 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - application/json 117
+2026-01-02 13:30:32.265 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:30:32.265 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 13:30:32.785 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi) in 519.9404ms
+2026-01-02 13:30:32.785 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.ForgotPassword (P10_WebApi)'
+2026-01-02 13:30:32.785 +05:30 [ERR] Unhandled exception for request POST /api/User/forgotpassword
+Twilio.Exceptions.ApiException: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: 914986XXXX
+   at Twilio.Clients.TwilioRestClient.ProcessResponse(Response response)
+   at Twilio.Clients.TwilioRestClient.RequestAsync(Request request)
+   at Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(CreateMessageOptions options, ITwilioRestClient client)
+   at Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(PhoneNumber to, String pathAccountSid, PhoneNumber from, String messagingServiceSid, String body, List`1 mediaUrl, String contentSid, Uri statusCallback, String applicationSid, Nullable`1 maxPrice, Nullable`1 provideFeedback, Nullable`1 attempt, Nullable`1 validityPeriod, Nullable`1 forceDelivery, ContentRetentionEnum contentRetention, AddressRetentionEnum addressRetention, Nullable`1 smartEncoded, List`1 persistentAction, TrafficTypeEnum trafficType, Nullable`1 shortenUrls, ScheduleTypeEnum scheduleType, Nullable`1 sendAt, Nullable`1 sendAsMms, String contentVariables, RiskCheckEnum riskCheck, ITwilioRestClient client)
+   at P10_WebApi.Services.SmsService.SendSmsAsync(String phoneNumber, String message) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Services\SmsService.cs:line 75
+   at P10_WebApi.Controllers.UserController.ForgotPassword(String phoneNumber) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 638
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 13:30:32.787 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/forgotpassword?phoneNumber=9149865535 - 500 null application/json; charset=utf-8 522.3731ms
+2026-01-02 13:33:04.404 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 117
+2026-01-02 13:33:04.404 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 13:33:04.412 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 13:33:06.581 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 13:33:06.582 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 2169.8335ms
+2026-01-02 13:33:06.582 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 13:33:06.582 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 200 null application/json; charset=utf-8 2178.1424ms
+2026-01-02 17:20:28.360 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-02 17:20:28.397 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-02 17:20:28.397 +05:30 [INF] Hosting environment: Development
+2026-01-02 17:20:28.397 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-02 17:20:35.594 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 120
+2026-01-02 17:20:35.619 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-01-02 17:20:35.621 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 17:20:35.645 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 17:20:39.871 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 17:20:39.889 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 4239.0664ms
+2026-01-02 17:20:39.900 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 17:20:39.904 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 200 null application/json; charset=utf-8 4311.0495ms
+2026-01-02 17:32:58.355 +05:30 [INF] Application is shutting down...
+2026-01-02 17:33:25.493 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-02 17:33:25.531 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-02 17:33:25.531 +05:30 [INF] Hosting environment: Development
+2026-01-02 17:33:25.532 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-02 17:36:45.500 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5046/ - null null
+2026-01-02 17:36:45.542 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-01-02 17:36:45.549 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5046/ - 404 null null 51.2472ms
+2026-01-02 17:36:45.569 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5046/, Response status code: 404
+2026-01-02 17:55:02.310 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 120
+2026-01-02 17:55:02.315 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 17:55:02.338 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 17:55:02.756 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 17:55:02.769 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 426.6172ms
+2026-01-02 17:55:02.769 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 17:55:02.773 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 400 null application/json; charset=utf-8 462.6658ms
+2026-01-02 17:55:14.397 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 122
+2026-01-02 17:55:14.399 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 17:55:14.405 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 17:55:15.804 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-02 17:55:15.804 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 1398.3944ms
+2026-01-02 17:55:15.804 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 17:55:15.805 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 200 null application/json; charset=utf-8 1407.754ms
+2026-01-02 17:56:01.778 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-02 17:56:01.813 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-02 17:56:01.814 +05:30 [INF] Hosting environment: Development
+2026-01-02 17:56:01.814 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-02 17:56:21.975 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 122
+2026-01-02 17:56:21.999 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-01-02 17:56:22.001 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 17:56:22.026 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 17:56:22.349 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 319.7475ms
+2026-01-02 17:56:22.360 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 17:56:22.361 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 170
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 17:56:22.394 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 420.3262ms
+2026-01-02 17:56:25.287 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 122
+2026-01-02 17:56:25.289 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 17:56:25.289 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 17:56:25.299 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 9.7931ms
+2026-01-02 17:56:25.300 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 17:56:25.300 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 170
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 17:56:25.304 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 18.2135ms
+2026-01-02 17:57:33.510 +05:30 [INF] Application is shutting down...
+2026-01-02 17:57:39.470 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-02 17:57:39.498 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-02 17:57:39.499 +05:30 [INF] Hosting environment: Development
+2026-01-02 17:57:39.499 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-02 17:57:44.802 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 122
+2026-01-02 17:57:44.829 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-01-02 17:57:44.830 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 17:57:44.848 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 17:57:45.170 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 317.4862ms
+2026-01-02 17:57:45.182 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 17:57:45.183 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 170
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 17:57:45.212 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 412.0733ms
+2026-01-02 17:57:46.812 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 122
+2026-01-02 17:57:46.813 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 17:57:46.813 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 17:57:46.824 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 10.6228ms
+2026-01-02 17:57:46.824 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 17:57:46.824 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 170
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 17:57:46.827 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 15.9871ms
+2026-01-02 18:01:23.156 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 122
+2026-01-02 18:01:23.158 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:01:23.158 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 18:01:23.164 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 5.4766ms
+2026-01-02 18:01:23.164 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:01:23.164 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 170
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 18:01:23.176 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 19.3401ms
+2026-01-02 18:01:24.559 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 122
+2026-01-02 18:01:24.559 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:01:24.560 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 18:01:24.563 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 3.6833ms
+2026-01-02 18:01:24.564 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:01:24.564 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 170
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 18:01:24.565 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 6.4057ms
+2026-01-02 18:01:32.911 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 122
+2026-01-02 18:01:32.911 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:01:32.912 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 18:01:32.915 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 3.129ms
+2026-01-02 18:01:32.915 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:01:32.915 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 170
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 18:01:32.917 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 5.6645ms
+2026-01-02 18:03:52.626 +05:30 [INF] Application is shutting down...
+2026-01-02 18:03:58.579 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-02 18:03:58.609 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-02 18:03:58.609 +05:30 [INF] Hosting environment: Development
+2026-01-02 18:03:58.609 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-02 18:04:18.930 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 122
+2026-01-02 18:04:18.970 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-01-02 18:04:18.974 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:04:19.001 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 18:04:19.371 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 365.15ms
+2026-01-02 18:04:19.379 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:04:19.380 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto Dtos) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 170
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 18:04:19.414 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 486.4671ms
+2026-01-02 18:04:22.950 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 122
+2026-01-02 18:04:22.952 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:04:22.952 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 18:04:22.969 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 16.5738ms
+2026-01-02 18:04:22.969 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:04:22.969 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto Dtos) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 170
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 18:04:22.973 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 23.7877ms
+2026-01-02 18:04:24.326 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 122
+2026-01-02 18:04:24.330 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:04:24.330 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 18:04:24.339 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 8.6666ms
+2026-01-02 18:04:24.339 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:04:24.339 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto Dtos) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 170
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 18:04:24.343 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 16.9321ms
+2026-01-02 18:06:31.134 +05:30 [INF] Application is shutting down...
+2026-01-02 18:06:36.994 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-02 18:06:37.035 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-02 18:06:37.036 +05:30 [INF] Hosting environment: Development
+2026-01-02 18:06:37.036 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-02 18:06:45.259 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 122
+2026-01-02 18:06:45.282 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-01-02 18:06:45.284 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:06:45.301 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 18:06:45.621 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 317.2938ms
+2026-01-02 18:06:45.628 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:06:45.629 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 235
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 18:06:45.652 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 394.0973ms
+2026-01-02 18:06:47.129 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 122
+2026-01-02 18:06:47.130 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:06:47.130 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 18:06:47.136 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 5.7458ms
+2026-01-02 18:06:47.137 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:06:47.137 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 235
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 18:06:47.139 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 10.7006ms
+2026-01-02 18:06:57.669 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 116
+2026-01-02 18:06:57.671 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:06:57.671 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 18:06:57.677 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 5.6657ms
+2026-01-02 18:06:57.677 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:06:57.677 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 235
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 18:06:57.680 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 10.7351ms
+2026-01-02 18:08:21.622 +05:30 [INF] Application is shutting down...
+2026-01-02 18:08:27.180 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-02 18:08:27.207 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-02 18:08:27.207 +05:30 [INF] Hosting environment: Development
+2026-01-02 18:08:27.207 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-02 18:08:34.205 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 116
+2026-01-02 18:08:34.229 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-01-02 18:08:34.232 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:08:34.254 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 18:08:34.578 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 321.2793ms
+2026-01-02 18:08:34.585 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:08:34.586 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 323
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 18:08:34.611 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 407.0657ms
+2026-01-02 18:08:41.650 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 116
+2026-01-02 18:08:41.652 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:08:41.652 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 18:08:41.669 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 16.9719ms
+2026-01-02 18:08:41.669 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:08:41.669 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 323
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 18:08:41.673 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 24.0418ms
+2026-01-02 18:09:37.176 +05:30 [INF] Application is shutting down...
+2026-01-02 18:09:42.650 +05:30 [INF] Now listening on: http://localhost:5046
+2026-01-02 18:09:42.683 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-02 18:09:42.684 +05:30 [INF] Hosting environment: Development
+2026-01-02 18:09:42.684 +05:30 [INF] Content root path: C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi
+2026-01-02 18:09:50.480 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5046/api/User/Register - application/json 116
+2026-01-02 18:09:50.503 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-01-02 18:09:50.505 +05:30 [INF] Executing endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:09:50.525 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterDto) on controller P10_WebApi.Controllers.UserController (P10_WebApi).
+2026-01-02 18:09:50.841 +05:30 [INF] Executed action P10_WebApi.Controllers.UserController.Register (P10_WebApi) in 313.32ms
+2026-01-02 18:09:50.848 +05:30 [INF] Executed endpoint 'P10_WebApi.Controllers.UserController.Register (P10_WebApi)'
+2026-01-02 18:09:50.849 +05:30 [ERR] Unhandled exception for request POST /api/User/Register
+System.FormatException: Element '_id' does not match any field or property of class P10_WebApi.Models.User.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, RetryableReadContext context)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at P10_WebApi.Controllers.UserController.Register(RegisterDto dto) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Controllers\UserController.cs:line 323
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at P10_WebApi.Middlewares.ErrorHandler.InvokeAsync(HttpContext context) in C:\Users\baree\OneDrive\Desktop\game1backend\P10_WebApi\Middlewares\ErrorHandler.cs:line 23
+2026-01-02 18:09:50.876 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5046/api/User/Register - 500 null application/json; charset=utf-8 397.1557ms
